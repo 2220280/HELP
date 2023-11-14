@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/profile.css">
+    <title>profile</title>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-box">
+            <img src="img/ei-menu.png" class="menu-icon">
+            <a href="setting.html"><img src="img/setting.png" class="setting-icon"></a>
+            <img src="img/yama.png" class="profile-pic">
+
+            <h3>#NAME#</h3>
+            <p>#ふりがな#</p>
+            
+            <div class="profile-bottom">
+                <label for="please">▼対応方法▼</label>
+                <input type="checkbox" id="please" id="please" class="switch"/>
+                <!--隠したいコンテンツ-->
+                <div class="content">
+                    <p>
+                        #しばらくすると落ち着きます。#
+                    </p>
+                </div>
+
+                <label for="htel">▼緊急連絡先▼</label>
+                <input type="checkbox" id="htel" id="htel" class="switch"/>
+                <!--隠したいコンテンツ-->
+                <div class="content">
+                    <p>
+                        #hospital:00-0000-0000#<br>
+                        #family:1111-1111-1111#
+                    </p>
+                </div>
+            </div>
+            <div class="toggle_button">
+                <input id="toggle" class="toggle_input" type='checkbox' />
+                <label for="toggle" class="toggle_label">
+              </div>
+        </div>  
+    </div>
+</body>
+</html>
